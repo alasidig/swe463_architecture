@@ -11,7 +11,7 @@ class LocalDataSource {
 
     // throw Exception('Local data source not implemented');
     // return article title:title, message:message
-    return 'title:local, body:cached article';
+    return '{title:local, body:cached article}';
   }
 
   Future<void> saveArticle(String article) async {
